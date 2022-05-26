@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class ProfileImage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return customeWidget();
+    return CustomeWidget();
   }
 }
 
-class customeWidget extends State<ProfileImage> {
+class CustomeWidget extends State<ProfileImage> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(

@@ -15,7 +15,7 @@ class _HomeAmount extends State<HomeAmount> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children: const [
               Text(
                 '£',
                 style: TextStyle(
@@ -47,12 +47,12 @@ class _HomeAmount extends State<HomeAmount> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  padding: EdgeInsets.all(5),
+                  padding: const EdgeInsets.all(5),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 226, 224, 228),
+                    color: const Color.fromARGB(255, 226, 224, 228),
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  child: Text(
+                  child: const Text(
                     '£ GBP',
                     style: TextStyle(
                       fontSize: 30,

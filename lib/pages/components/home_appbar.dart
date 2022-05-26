@@ -2,6 +2,8 @@ import 'package:circle/pages/components/profile_image.dart';
 import 'package:flutter/material.dart';
 
 class HomeAppBar extends StatefulWidget {
+  const HomeAppBar({Key? key}) : super(key: key);
+
   @override
   State<StatefulWidget> createState() {
     return _HomeAppBar();
@@ -27,7 +29,7 @@ class _HomeAppBar extends State<HomeAppBar> {
                       padding: const EdgeInsets.only(left: 10, right: 10),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
+                        children: const [
                           Text(
                             'Amila',
                             style: TextStyle(
@@ -51,12 +53,12 @@ class _HomeAppBar extends State<HomeAppBar> {
 
                 //notification
                 Container(
-                  padding: EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(12),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 226, 224, 228),
+                    color: const Color.fromARGB(255, 226, 224, 228),
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  child: Icon(
+                  child: const Icon(
                     Icons.notifications,
                   ),
                 ),

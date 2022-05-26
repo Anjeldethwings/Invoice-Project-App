@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               //money
               HomeAmount(),
 
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
 
@@ -83,32 +83,32 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
 
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
             ]),
       ),
       bottomNavigationBar: //nevigation
           BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        elevation: 1,
-        selectedItemColor: Color.fromARGB(255, 189, 158, 197),
-        // unselectedItemColor: Color.fromARGB(255, 196, 196, 196),
-        onTap: _onItemTapped,
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.create),
-            label: 'Create',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
-          ),
+            currentIndex: _selectedIndex,
+            elevation: 1,
+            selectedItemColor: Color.fromARGB(255, 189, 158, 197),
+            // unselectedItemColor: Color.fromARGB(255, 196, 196, 196),
+            onTap: _onItemTapped,
+            backgroundColor: Color.fromARGB(255, 255, 255, 255),
+            items: const <BottomNavigationBarItem>[
+              BottomNavigationBarItem(
+                icon: Icon(Icons.home),
+                label: 'Home',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.create),
+                label: 'Create',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.person),
+                label: 'Profile',
+              ),
         ],
       ),
     );

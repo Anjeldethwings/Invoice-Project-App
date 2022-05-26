@@ -17,10 +17,10 @@ class login extends State<LoginPage> {
   final _passwordController = TextEditingController();
 
   Future singIn() async {
-    print('SingIn Called');
     FirebaseAuth.instance.signInWithEmailAndPassword(
-        email: _emailController.text.trim(),
-        password: _passwordController.text.trim());
+      email: _emailController.text.trim(),
+      password: _passwordController.text.trim(),
+    );
   }
 
   @override

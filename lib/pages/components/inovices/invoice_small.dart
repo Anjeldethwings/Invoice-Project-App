@@ -26,10 +26,10 @@ class customeWidget extends State<InvoiceSmall> {
     return Padding(
       padding: const EdgeInsets.all(6.0),
       child: Container(
-        padding: EdgeInsets.all(12),
+        padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           border: Border.all(
-            color: Color.fromARGB(255, 234, 238, 242),
+            color: const Color.fromARGB(255, 234, 238, 242),
           ),
           borderRadius: BorderRadius.circular(15),
         ),
@@ -38,12 +38,12 @@ class customeWidget extends State<InvoiceSmall> {
           children: [
             //invoice icon
             Container(
-              padding: EdgeInsets.all(12),
+              padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 236, 241, 246),
+                color: const Color.fromARGB(255, 236, 241, 246),
                 borderRadius: BorderRadius.circular(15),
                 border: Border.all(
-                  color: Color.fromARGB(255, 187, 204, 237),
+                  color: const Color.fromARGB(255, 187, 204, 237),
                 ),
               ),
               child: SizedBox(
@@ -59,8 +59,8 @@ class customeWidget extends State<InvoiceSmall> {
             //incvoice data
             Expanded(
               child: Container(
-                padding: EdgeInsets.only(left: 5, right: 5),
-                decoration: BoxDecoration(
+                padding: const EdgeInsets.only(left: 5, right: 5),
+                decoration: const BoxDecoration(
                     // color: Color.fromARGB(255, 189, 158, 197),
                     ),
                 child: Column(
@@ -84,12 +84,12 @@ class customeWidget extends State<InvoiceSmall> {
                                       height: 20,
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     child: SizedBox(
                                       width: 10,
                                     ),
                                   ),
-                                  Text('21-08-2022'),
+                                  const Text('21-08-2022'),
                                 ],
                               ),
                             ),
@@ -104,12 +104,12 @@ class customeWidget extends State<InvoiceSmall> {
                                       height: 20,
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     child: SizedBox(
                                       width: 10,
                                     ),
                                   ),
-                                  Text('21-08-2022'),
+                                  const Text('21-08-2022'),
                                 ],
                               ),
                             ),
@@ -125,54 +125,54 @@ class customeWidget extends State<InvoiceSmall> {
                     ),
                     //title
                     Padding(
-                      padding: EdgeInsets.only(left: 13),
+                      padding: const EdgeInsets.only(left: 13),
                       child: Text(
                         invoiceName,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 20,
-                          color: Color.fromARGB(255, 59, 59, 59),
+                          color: const Color.fromARGB(255, 59, 59, 59),
                         ),
                       ),
                     ),
 
                     //title
                     Container(
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                           // color: Color.fromARGB(255, 198, 107, 221),
                           ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Text(
+                          const Text(
                             '£',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 59, 59, 59),
+                              color: const Color.fromARGB(255, 59, 59, 59),
                             ),
                           ),
-                          Text(
+                          const Text(
                             '150',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 59, 59, 59),
+                              color: const Color.fromARGB(255, 59, 59, 59),
                             ),
                           ),
-                          Text(
+                          const Text(
                             '.',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: Color.fromARGB(255, 59, 59, 59),
                             ),
                           ),
-                          Text(
+                          const Text(
                             '40',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 59, 59, 59),
+                              color: const Color.fromARGB(255, 59, 59, 59),
                             ),
                           ),
                         ],

@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 class TextFiledStyle extends StatelessWidget {
   String hint;
 
-  TextFiledStyle({
+  TextFiledStyle({Key? key,
     required this.hint,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
